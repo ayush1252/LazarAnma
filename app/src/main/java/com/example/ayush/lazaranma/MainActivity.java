@@ -10,6 +10,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 
+import com.parse.LogInCallback;
+import com.parse.ParseException;
+import com.parse.ParseUser;
+
 public class MainActivity extends AppCompatActivity {
 
     Button bt_hospital, bt_anma;
@@ -36,6 +40,12 @@ public class MainActivity extends AppCompatActivity {
                         .setPositiveButton("Send", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialogBox, int id) {
                                 // ToDo get user input here
+                                ParseUser.logInInBackground(et_id.getText().toString(), et_pass.getText().toString(), new LogInCallback() {
+                                    @Override
+                                    public void done(ParseUser user, ParseException e) {
+                                        login();
+                                    }
+                                });
                             }
                         })
 
@@ -65,6 +75,13 @@ public class MainActivity extends AppCompatActivity {
                         .setPositiveButton("Send", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialogBox, int id) {
                                 // ToDo get user input here
+                                ParseUser.logInInBackground(et_id.getText().toString(), et_pass.getText().toString(), new LogInCallback() {
+                                    @Override
+                                    public void done(ParseUser user, ParseException e) {
+                                        login();
+                                    }
+                                });
+
                             }
                         })
 
@@ -80,5 +97,9 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    void login(){
+
     }
 }
