@@ -10,4 +10,10 @@
     <string name="locality">Locality</string>
     <string name="city">city</string>
     <string name="LID">LocalityID</string>
+    <string name="EnterMID">Enter Mother\'s ID</string>
+    <string name="DOB">Date of Birth</string>
+    <string name="BCN">Birth Certificate Number</string>
+    <string name="Name">Name</string>
+    <string name="fetch">Fetch Offline Data</string>
+    <string name="verifyad">Verify Aadhar Number</string>
 </resources>

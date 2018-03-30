@@ -27,4 +27,11 @@
     <!-- Change the following strings as required -->
     <string name="back4app_app_id">tdmZYblELna1qEfzXCbWVPkLT6meo8rGBeS6hqFe</string>
     <string name="back4app_client_key">oAGBmjTOx2Tqn7t74yloKghIX5Y7hTyTejfm89Sf</string>
+    <string name="EnterMID">Enter Mother\'s ID</string>
+    <string name="DOB">Date of Birth</string>
+    <string name="BCN">Birth Certificate Number</string>
+    <string name="Name">Name</string>
+    <string name="fetch">Fetch Offline Data</string>
+    <string name="verifyad">Verify Aadhar Number</string>
+    <string name="EntAdh">Enter Aadhar Number</string>
 </resources>
