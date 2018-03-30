@@ -3,4 +3,16 @@
     <string name="Login">Login</string>
     <string name="IDenter">Enter your ID</string>
     <string name="Passenter">Enter your Password</string>
+    <string name="Enter">Registeration</string>
+    <string name="Mname">Mother\'s Name</string>
+    <string name="Fname">Father\'s Name</string>
+    <string name="Madhar">Mother\'s Aadhar Number</string>
+    <string name="Fadhar">Father\'s AAdhar Number</string>
+    <string name="Street">House No.</string>
+    <string name="locality">Locality</string>
+    <string name="State">State</string>
+    <string name="city">City</string>
+    <string name="LID">LocalityID</string>
+    <string name="phone">Mobile Number</string>
+    <string name="EMail">Email ID</string>
 </resources>

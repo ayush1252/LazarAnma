@@ -2,6 +2,7 @@ package com.example.ayush.lazaranma;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -36,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
                         .setPositiveButton("Send", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialogBox, int id) {
                                 // ToDo get user input here
+                                Intent intent=new Intent(getApplicationContext(),RegistrationMother.class);
+                                startActivity(intent);
                             }
                         })
 
