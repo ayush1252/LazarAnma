@@ -31,20 +31,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/LID"
+        android:visibility="gone"
         android:layout_margin="5dp"
         android:editable="false"
         android:id="@+id/et_lid"/>
-    <android.support.design.widget.TextInputEditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/DOB"
-        android:id="@+id/et_dob"
-        android:layout_margin="5dp"/>
+
     <android.support.design.widget.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/BCN"
         android:id="@+id/et_bcn"
         android:layout_margin="5dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/DOB"
+        android:id="@+id/bt_dob"
+        android:layout_margin="5dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/bt_register"/>
 
 </LinearLayout>
