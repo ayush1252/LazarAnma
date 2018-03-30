@@ -12,7 +12,9 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        Parse.enableLocalDatastore(getApplicationContext());
         Parse.initialize(this);
+
 
 //        ParseObject po=new ParseObject(Constants.Parse.Mother.TABLE_NAME);
 //        po.put(Constants.Parse.Mother.AADHAR_MOTHER,"112");

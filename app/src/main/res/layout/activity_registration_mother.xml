@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationMother">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_marginBottom="5dp"
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:text="@string/Enter"/>
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Mname"
+
+        android:id="@+id/et_mn"
+        android:layout_margin="5dp"/>
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Fname"
+        android:id="@+id/et_fn"
+        android:layout_margin="5dp"/>
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Madhar"
+        android:inputType="number"
+        android:id="@+id/et_maadhar"
+        android:layout_margin="5dp"/>
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Fadhar"
+        android:id="@+id/et_faadhar"
+        android:layout_margin="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/Street"
+                android:layout_margin="5dp"
+                android:id="@+id/et_street"/>
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/locality"
+            android:layout_margin="5dp"
+            android:id="@+id/et_locality"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/city"
+            android:layout_margin="5dp"
+            android:id="@+id/et_city"/>
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/State"
+            android:layout_margin="5dp"
+            android:id="@+id/et_state"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/LID"
+        android:layout_margin="5dp"
+        android:editable="false"
+        android:id="@+id/et_lid"/>
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/phone"
+        android:layout_margin="2dp"
+        android:inputType="phone"
+        android:id="@+id/et_phone"/>
+</LinearLayout>
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/EMail"
+        android:inputType="textEmailAddress"
+        android:layout_margin="5dp"
+        android:id="@+id/et_email"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="61dp"
+            android:id="@+id/fb_submit"
+            android:layout_margin="5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>
