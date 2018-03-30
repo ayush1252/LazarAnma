@@ -15,7 +15,13 @@
     <string name="LID">LocalityID</string>
     <string name="phone">Mobile Number</string>
     <string name="EMail">Email ID</string>
+    <string-array name="Heading">
 
+        <item>Mother \n Registeration</item>
+        <item>Mother \n Vaccination</item>
+        <item>Child \n Registeration</item>
+        <item>Child \n Vaccination</item>
+    </string-array>
     <string name="back4app_server_url">https://parseapi.back4app.com/</string>
 
     <!-- Change the following strings as required -->

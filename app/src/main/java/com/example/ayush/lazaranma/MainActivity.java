@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
         PreferenceManager.getDefaultSharedPreferences(MainActivity.this).edit().putString(
                 Constants.SharedPreferences.ANMA_ID,u
         ).putString(Constants.SharedPreferences.PASSWORD,p).apply();
-        Intent intent=new Intent(getApplicationContext(),RegistrationMother.class);
+        Intent intent=new Intent(getApplicationContext(),VerificationActivity.class);
         startActivity(intent);
     }
 
