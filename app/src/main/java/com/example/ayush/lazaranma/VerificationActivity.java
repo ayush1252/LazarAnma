@@ -26,8 +26,8 @@ import java.util.List;
 public class VerificationActivity extends AppCompatActivity implements MyAdapter.ClickListener {
 
 
-        private RecyclerView recyclerView;
-        MyAdapter adapter;
+    private RecyclerView recyclerView;
+    MyAdapter adapter;
     final Context c = this;
     TextView tv_msg;
     SmsVerifyCatcher smsVerifyCatcher;
@@ -143,10 +143,17 @@ public class VerificationActivity extends AppCompatActivity implements MyAdapter
             {
                 //Query Mother Table
                 Toast.makeText(this, "Banana Hai abhi", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplication(), VaccinationActivity.class);
+                intent.putExtra("name", position);
+                startActivity(intent);
             }
             else
             {
                 //Query Child Table
+                Toast.makeText(this, "Banana Hai abhi", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplication(), VaccinationActivity.class);
+                intent.putExtra("name", position);
+                startActivity(intent);
             }
     }
 

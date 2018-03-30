@@ -16,4 +16,5 @@
     <string name="Name">Name</string>
     <string name="fetch">Fetch Offline Data</string>
     <string name="verifyad">Verify Aadhar Number</string>
+    <string name="vaccinate">Vaccinate</string>
 </resources>
