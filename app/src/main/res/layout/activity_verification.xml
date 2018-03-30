@@ -17,7 +17,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/recycler"
         android:id="@+id/offline"
+        android:textColor="#ffffff"
+        android:background="@color/colorAccent"
         android:layout_marginTop="10dp"
+        android:padding="15dp"
         android:layout_centerHorizontal="true"
         android:text="@string/fetch"/>
 

@@ -2,6 +2,7 @@ package com.example.ayush.lazaranma;
 
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TextInputEditText;
+import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -13,7 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class RegistrationMother extends AppCompatActivity {
-TextInputEditText et_mn, et_fn, et_madhar, et_fadhar, et_locality, et_house, et_city, et_state, et_localityid, et_mobile, et_email;
+    TextInputEditText et_mn, et_fn, et_madhar, et_fadhar, et_locality, et_house, et_city, et_state, et_localityid, et_mobile, et_email;
    FloatingActionButton fb;
     HashMap<String, String> map = new HashMap<String, String>();
 

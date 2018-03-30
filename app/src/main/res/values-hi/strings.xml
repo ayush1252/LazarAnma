@@ -3,7 +3,7 @@
     <string name="Login">Login</string>
     <string name="IDenter">Enter your ID</string>
     <string name="Passenter">Enter your Password</string>
-    <string name="Enter">Registeration</string>
+    <string name="Enter">Registeration for Mothers</string>
     <string name="Mname">Mother\'s Name</string>
     <string name="Fname">Father\'s Name</string>
     <string name="Street">House No.</string>
@@ -16,4 +16,5 @@
     <string name="Name">Name</string>
     <string name="fetch">Fetch Offline Data</string>
     <string name="verifyad">Verify Aadhar Number</string>
+    <string name="vaccinate">Vaccinate</string>
 </resources>

@@ -103,7 +103,7 @@
     <android.support.design.widget.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/EMail"
+        android:hint="@string/EMail"
         android:inputType="textEmailAddress"
         android:layout_margin="5dp"
         android:id="@+id/et_email"/>
@@ -116,6 +116,7 @@
         <android.support.design.widget.FloatingActionButton
             android:layout_width="61dp"
             android:id="@+id/fb_submit"
+            android:src="@drawable/done"
             android:layout_margin="5dp"
             android:layout_height="match_parent"
             android:layout_alignParentRight="true" />
