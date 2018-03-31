@@ -64,7 +64,7 @@ public class RegisterationChildrenActivity extends AppCompatActivity  implements
                             po.put(Constants.Parse.Child.LID,object.getString(Constants.Parse.Mother.LOCATION_ID));
                             po.put(Constants.Parse.Child.MOTHER_ID,object);
                             po.saveInBackground();
-                            Toast.makeText(RegisterationChildrenActivity.this, "Registered", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(RegisterationChildrenActivity.this, "Registered ", Toast.LENGTH_SHORT).show();
                         }else{
                             Log.d(TAG, "done: ");
                         }

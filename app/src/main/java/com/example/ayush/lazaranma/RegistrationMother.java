@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.widget.Toast;
 
 import com.parse.ParseObject;
 
@@ -93,8 +94,9 @@ public class RegistrationMother extends AppCompatActivity {
                 po.put(Constants.Parse.Mother.PHONE,et_mobile.getText().toString());
 
                 po.saveEventually();
+                Toast.makeText(RegistrationMother.this, "New Mother Registered"+po.getObjectId(), Toast.LENGTH_SHORT).show();
 
-
+                finish();
 
 
             }

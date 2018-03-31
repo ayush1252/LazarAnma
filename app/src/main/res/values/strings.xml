@@ -35,4 +35,8 @@
     <string name="verifyad">Verify Aadhar Number</string>
     <string name="EntAdh">Enter Aadhar Number</string>
     <string name="vaccinate">Vaccinate</string>
+
+    <string name="instructions">
+Place your fingertip on the Home button to verify your identity
+</string>
 </resources>

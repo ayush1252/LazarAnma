@@ -8,6 +8,7 @@
     <uses-permission android:name="android.permission.READ_SMS" />
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
 
     <application
         android:name=".App"
@@ -37,7 +38,10 @@
         <activity android:name=".VaccinationActivity" />
         <activity android:name=".RegistrationMother" />
         <activity android:name=".VerificationActivity" />
-        <activity android:name=".RegisterationChildrenActivity"></activity>
+        <activity android:name=".RegisterationChildrenActivity" />
+        <activity android:name=".FingerPrintActivity">
+
+        </activity>
     </application>
 
 </manifest>

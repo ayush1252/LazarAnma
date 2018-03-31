@@ -142,17 +142,17 @@ public class VerificationActivity extends AppCompatActivity implements MyAdapter
             else if(position==1)
             {
                 //Query Mother Table
-                Toast.makeText(this, "Banana Hai abhi", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(this, "Banana Hai abhi", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getApplication(), VaccinationActivity.class);
-                intent.putExtra("name", position);
+                intent.putExtra(VaccinationActivity.INTENT_SEL, VaccinationActivity.MOTHER_SEL);
                 startActivity(intent);
             }
             else
             {
                 //Query Child Table
-                Toast.makeText(this, "Banana Hai abhi", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this, "Banana Hai abhi", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getApplication(), VaccinationActivity.class);
-                intent.putExtra("name", position);
+                intent.putExtra(VaccinationActivity.INTENT_SEL, VaccinationActivity.CHILD_SEL);
                 startActivity(intent);
             }
     }
